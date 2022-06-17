@@ -1,0 +1,173 @@
+/* .heading.title same level html element */
+/* .heading .title  heading is parent of title*/
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
+}
+
+#features {
+  background-color: white;
+  position: relative;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#press {
+  text-align: center;
+  background-color: #ff4c68;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  font-weight: 900;
+  padding: 5% 20%;
+}
+
+#footer {
+  text-align: center;
+  padding: 7%
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.iphone-dog {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 10% 5%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.find-quote {
+  font-size: 3rem;
+}
+
+.brand-icon {
+  border-style: none;
+  background-color: white;
+  margin:5px;
+  padding-bottom: 10px;
+}
+
+.copyright-text {
+  font-weight: 400;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900; /*Montserrat-black*/
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .iphone-dog {
+    transform: rotate(0);
+    width: 60%;
+    position: static;
+    right: 30%;
+  }
+}
+
+@media (max-width: 840px) {
+  .not-balance {
+    min-height: 432px;
+  }
+}
+
+@media (min-width:632) and (max-width:670) {
+  .not-balance {
+    min-height: 504px;
+  }
+}
